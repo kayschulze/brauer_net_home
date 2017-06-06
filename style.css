@@ -1,0 +1,94 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column1 {width: 10%;}
+.column2 {width: 20%;}
+.column3 {
+  width: 30%;
+  height: 100%;
+  float: left;
+  padding: 15px;
+  font-family: 'Cantora One', sans-serif;
+  font-size: 27px;
+}
+.column4 {width: 40%;}
+.column5 {width: 50%;}
+.column6 {width: 60%;}
+.column7 {
+  width: 100%;
+  font-size: 18px;
+  padding: 20px;
+  font-family: 'Cantora One', sans-serif;
+  margin-right: 30%;
+}
+.column8 {width: 80%;}
+.column9 {width: 90%;}
+.column10 {width: 100%;}
+.heading {
+  width: 100%;
+  height: 80px;
+  font-size: 70px;
+}
+
+/*[class*="column"] {
+  float: left;
+  padding: 15px;
+  font-family: 'Cantora One', sans-serif;
+  font-size: 27px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  padding: 10px;
+  margin-bottom: 7px;
+  background-color: aqua;
+  color: darkgreen;
+  box-shadow: 0 1px 3px rgba(50,0,0,0.24), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+  background-color: lightcoral;
+}
+.empathize{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrSgxTSlb5ZqFHo4vOgGwmP9KSZu0QtQrfsE3TD_mua8mz1rqS");
+  background-size: 50%;
+  color: indianred;
+  font-family: 'Spirax', cursive;  
+}
+.define{
+  background-image: url("https://www.mindflash.com/wp-content/uploads/2013/01/Chunk-Blend.jpg");
+  background-size: 50%;
+  color: darkorange;
+  font-family: 'Spirax', cursive;  
+}
+.ideate{
+  background-image: url("https://fiberopticnow.github.io/media/brainstorm.jpg");
+  background-size: 50%;
+  color: yellow;
+  font-family: 'Spirax', cursive;  
+}
+.prototype{
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR8HuVFibzTisDoDnq4b9sDXs5lMKASUP2vfzY68ibVU9RCcaHj");
+  background-size: 50%;
+  color: deepskyblue;
+  font-family: 'Spirax', cursive;  
+}
+.test{
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPJuWLqcBcvfdwXjcZvSc2ZiRH9H68sb31UwJ8VJUAwNyVmg4Xew");
+  background-size: 50%;
+  color: darkviolet;
+  font-family: 'Spirax', cursive;
+}
+
+

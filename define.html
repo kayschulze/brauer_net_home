@@ -1,0 +1,61 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Response Web Design</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cantora+One|Love+Ya+Like+A+Sister|Rye|Spirax" rel="stylesheet">
+  <script src="brauerLetter.js" type="text/javascript"></script>
+</head>
+<body>
+
+  <br>
+  <div class="row">
+    <div class="heading">
+      <div class="define">Define</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column3 menu">
+      <ul>
+        <li>Empathize</li>
+        <li>Define</li>
+        <li>Ideate</li>
+        <li>Prototype</li>
+        <li>Test</li>
+      </ul>       
+    </div>
+
+    <div class="column7">
+      <p>Tell us about yourself</p>
+
+      <form name = myForm>
+        <table border = 1>
+
+          <tr><td>Address: <br></td></tr>
+          <tr><td>Name:  <input type="text" id="nameDeclare"><br></td></tr>
+          <tr><td>Address Line #1:  <input type="text" id="address1"><br></td></tr>
+          <tr><td>Address Line #2:  <input type="text" id="address2"><br></td></tr>
+          <tr><td>City:  <input type="text" id="city"></td></tr>
+          <tr><td>State:  <input type="text" id="state"></td></tr>
+          <tr><td>Zip Code:  <input type="text" id="zip"><br><br></td></tr>
+        </table><br>
+        <table>
+          <tr>
+            <td colspan = 2><center>
+              <input type = "button" value = "Create Letter" onClick = "WriteLetter()">
+              </center></td>
+          </tr>
+
+        </table>
+        <textarea name = theletter
+                  rows= 10
+                  cols = 40
+                  wrap>
+        </textarea>
+      </form>
+      
+    </div>
+  </div>
+</body>
+</html>
